@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    position: absolute;
+    margin: 2%;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align:left;
+    text-shadow: 5px 8px 5px#161615;
+    color: #dedddd;
+    font-family: Georgia;
+    font-size: 75px;
+}
+.banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.70)),url(back5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding-top: 22px;
+    padding-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+a.active5,a:hover{
+    border:3px solid whitesmoke;
+    background-color: rgba(24, 22, 22, 0.719);
+    padding: 5px 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    position: relative;
+}
+.navbar ul li a{
+    font-family: sans-serif ;
+    text-decoration: none;
+    color: #ead6b6;
+    float: right;
+    text-transform: bold;
+    font-size: 120%;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #a3734a;
+    position: absolute;
+    left: 0;
+    bottom: -10px ;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.contacts{
+    margin-top: 60px;
+    margin-left: 90px;
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 20px;
+    border-style: double;
+    width: 85%;
+    height: 67%;
+}
+h2{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 50px;
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dedddd;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration:underline;
+    font-style: oblique;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dedddd;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration:underline;
+    font-style: oblique;
+}
+h3{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 70px;
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+}
+.contacts a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(104, 203, 236);
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    text-decoration:underline;
+    font-style: oblique;
+}

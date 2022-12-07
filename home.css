@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    width: 100%;
+    position: absolute;
+    margin-top: 13%;
+    text-align: center;
+    color: #e0e4dd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h1{
+    width: 100%;
+    position: absolute;
+    margin-top: 15%;
+    text-align: center;
+    text-shadow: 5px 10px 5px#161615;
+    color: #dedddd;
+    font-family: Georgia;
+    font-size: 100px;
+}
+.banner{  
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(sofaWhite.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding-top: 22px;
+    padding-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.LOGO1{
+    position: fixed;
+    width: 210px;
+    height: auto;
+    left: 66px;
+}
+a.active,a:hover{
+    border:3px solid whitesmoke;
+    background-color: rgba(24, 22, 22, 0.719);
+    padding: 5px 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    position: relative;
+}
+.navbar ul li a{
+    font-family: sans-serif ;
+    text-decoration: none;
+    color:#ead6b6;
+    float: right;
+    text-transform: bold;
+    font-size: 120%;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#a3734a;
+    position: absolute;
+    left: 0;
+    bottom: -10px ;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.tagline{
+    color: #e6cd98;
+    font-size: 130%;
+    background-color:#28211b;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin-top:28%;
+    height: 10%;
+    size: 90px;
+    align-items: center;
+    display: flex;
+    padding-left: 40%;
+}
